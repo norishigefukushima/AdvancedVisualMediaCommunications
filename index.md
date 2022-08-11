@@ -20,22 +20,32 @@
 圧縮するデータと7zの圧縮コマンドラインツール（windows用）が入っている)
 
 #### Usage for 7z
-ver 22.01
+[7-Zip Zstandard Edition](https://github.com/mcmilk/7-Zip-zstd)
+An extended project from 7-zip, which can use zstd,zh4, zh5, lizard, fast LZMA2, Brotli
+
 + 7za.exe
 + 7za.dll
 + 7zxa.dll
 + 7z/License.txt
 + 7z/history.txt
 + 7z/readme.txt
-レベル9でPPMdアルゴリズムを使ってマルチスレッドで圧縮
+
+圧縮レベル9（最高圧縮）でPPMdアルゴリズムを使ってマルチスレッド（最大コア数）で圧縮
 ```
-7za.exe a output.7z input.txt –mx9 -mm=PPMd –mmt=on
+7za.exe a output.7z 0-open.dll -mx1 -mm=PPMd -mmt=8
 ```
 
-レベル0でzstandardアルゴリズムを使ってマルチスレッドで圧縮
+圧縮レベル1（最高速）でzstandardアルゴリズムを使って8スレッドで圧縮
 ```
-7za.exe a output.7z input.txt –mx0 -mm=zstd –mmt=on
+7za.exe a output.7z 0-open.dll -mx1 -mm=zstd -mmt=8
 ```
+
+デフォルトの7-zipで使えるアルゴリズム
+LZMA, PPMd, BZip2, Deflate, BCJ, BCJ2, Copy
+LZMA: mx 0(copy), 1(fastest),3,5,7,9(ultra compressing)
+
+追加で使えるアルゴリズム
+zstd, lz4, lz5, lizard, fast LZMA2, Brotli
 
 ### entropy
 コマンドラインで計算するエントロピーの計算プログラムが入っている．コンパイル済みのものはwindows用
