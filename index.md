@@ -20,14 +20,21 @@
 圧縮するデータと7zの圧縮コマンドラインツール（windows用）が入っている)
 
 #### Usage for 7z
+ver 22.01
++ 7za.exe
++ 7za.dll
++ 7zxa.dll
++ 7z/License.txt
++ 7z/history.txt
++ 7z/readme.txt
 レベル9でPPMdアルゴリズムを使ってマルチスレッドで圧縮
 ```
-7z.exe a output.7z input.txt –mx9 -mm=PPMd –mmt=on
+7za.exe a output.7z input.txt –mx9 -mm=PPMd –mmt=on
 ```
 
 レベル0でzstandardアルゴリズムを使ってマルチスレッドで圧縮
 ```
-7z.exe a output.7z input.txt –mx0 -mm=zstd –mmt=on
+7za.exe a output.7z input.txt –mx0 -mm=zstd –mmt=on
 ```
 
 ### entropy
