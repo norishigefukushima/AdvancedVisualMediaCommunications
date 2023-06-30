@@ -60,6 +60,10 @@ sourceはバイナリファイルを生成したVisual Studio2015のプロジェ
 Linux でもentropy.cppをgcc/g++でコンパイルが通る．
 
 # 3. 画像符号化1 (Image coding 1)
+ディレクトリ構成 (Directory Structure)
++ [data_3/*.bmp
+
+画像が9種類入っている．
 
 # 4. 画像符号化2 (Image coding 2)
 
