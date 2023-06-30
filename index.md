@@ -69,6 +69,7 @@ Linux でもentropy.cppをgcc/g++でコンパイルが通る．
 画像が9種類入っている．
 
 # 4. 画像符号化2 (Image coding 2)
+[データダウンロード](./data_4/data_4.zip)
 
 # 5. 映像符号化1 (Video coding 1)
 
