@@ -65,18 +65,19 @@ Linux でもentropy.cppをgcc/g++でコンパイルが通る．
 ディレクトリ構成 (Directory Structure)
 + [data_3/data_3.zip
 
-
 画像が9種類入っている．
 
-# 4. 画像符号化2 (Image coding 2)
+# 4. 画像符号化2 (Image Coding 2)
 [データダウンロード](./data_4/data_4.zip)
 
-# 5. 映像符号化1 (Video coding 1)
+# 5. 映像符号化1 (Video Coding 1)
 
-# 6. 映像符号化2 (Video coding 2)
+[データとffmpegダウンロード](./data_5/data_5.zip)
+
+# 6. 映像符号化2 (Video Coding 2)
  課題無し (No short report)
 
-# 7. 映像符号化3 (Video coding 3)
+# 7. 映像符号化3 (Video Coding 3)
 
 ## libhief
 [libhief](https://github.com/strukturag/libheif)は，HEIFフォーマットを扱うためのライブラリです．
