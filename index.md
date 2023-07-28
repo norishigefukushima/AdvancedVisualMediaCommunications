@@ -88,8 +88,18 @@ Linux でもentropy.cppをgcc/g++でコンパイルが通る．
 ## GitlHEVCAnalyzer
 GitlHEVCAnalyzerにhevcのデータを入力すると各フレーム，各ブロックの状況の解析ができます．
 ![GitlHEVCAnalyzer](./data_7/hevcanalyzer.webp)
-
 * [GitlHEVCAnalyzer](data_7/GitlHEVCAnalyzer_win32_v1.5.1.zip)
+
+### 類似ソフトウェア
+
+その他，Bitstream Analyzerで検索するとヒットする．
+
+* [aomanalyzer](https://github.com/xiph/aomanalyzer)
+* [CodecVisa (有料)](https://codecian.com/index.html)
+
+* [Parabola Explorer（有料）](https://parabolaresearch.com/index.html)
+
+* [Elecard StreamEye（有料）](https://www.ibsjapan.co.jp/products/Elecard_StreamEye.html)
 
 ## libhief
 [libhief](https://github.com/strukturag/libheif)は，HEIFフォーマットを扱うためのライブラリです．
