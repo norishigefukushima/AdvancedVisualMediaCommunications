@@ -85,6 +85,12 @@ Linux でもentropy.cppをgcc/g++でコンパイルが通る．
 	* MSE, PSNR, SSIMを計算するプログラム
 * [画像データセット](./data_7/image_dataset.zip)
 
+## GitlHEVCAnalyzer
+GitlHEVCAnalyzerにhevcのデータを入力すると各フレーム，各ブロックの状況の解析ができます．
+![GitlHEVCAnalyzer](./data_7/hevcanalyzer.webp)
+
+* [GitlHEVCAnalyzer](data_7/GitlHEVCAnalyzer_win32_v1.5.1.zip)
+
 ## libhief
 [libhief](https://github.com/strukturag/libheif)は，HEIFフォーマットを扱うためのライブラリです．
 libhief.libなどを使って，様々な言語からHEIFのIOを実現するために使います．
