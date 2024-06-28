@@ -30,12 +30,12 @@ An extended project from 7-zip, which can use zstd,zh4, zh5, lizard, fast LZMA2,
 + 7z/history.txt
 + 7z/readme.txt
 
-圧縮レベル9（最高圧縮）でPPMdアルゴリズムを使ってマルチスレッド（最大コア数）で圧縮
+圧縮レベル9（最高圧縮）でPPMdアルゴリズムを使って8スレッドで圧縮
 ```
 7za.exe a output.7z 0-open.dll -mx1 -mm=PPMd -mmt=8
 ```
 
-圧縮レベル1（最高速）でzstandardアルゴリズムを使って8スレッドで圧縮
+圧縮レベル1（最高速）でzstandardアルゴリズムを使って8スレッドで圧縮（読み方日本語ゼットスタンダート，英語ズィースタンダート）
 ```
 7za.exe a output.7z 0-open.dll -mx1 -mm=zstd -mmt=8
 ```
